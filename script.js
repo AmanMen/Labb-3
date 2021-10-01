@@ -20,7 +20,7 @@ function greet(name) {
     console.log('Hello ' + name);
   }
 
-greet('Bob');
+greet('hello','Bob');
 
 let arrayLength = fruit.length;
 for (let i = 0; i < arrayLength; i++){
@@ -30,5 +30,5 @@ for (let i = 0; i < arrayLength; i++){
 if (labb) {
     console.log("bob likes mango");
 } else {
-    console.log("bob dont like manago");
+    console.log("bob doesn't like mango");
 }
