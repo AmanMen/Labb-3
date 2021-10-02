@@ -19,7 +19,7 @@ function greet(name, _question) {
     console.log('Hello', name + _question);
   }
 
-greet('Bob', ' how are you');
+greet('Bob,', ' how are you?');
 
 
 let arrayLength = fruit.length;
