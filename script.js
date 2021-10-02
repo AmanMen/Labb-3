@@ -1,8 +1,7 @@
-/*const chalk = require('chalk');
+// const chalk = require('chalk');
 
 
-console.log(chalk.red('Hello world!'));
-*/
+// console.log(chalk.red('Hello world!'));
 
 
 let name = "Lina, Bob, Fred";
@@ -16,11 +15,12 @@ let labb = false;
 
 let fruit = ["apple", "orange","mango"];
 
-function greet(name) {
-    console.log('Hello ' + name);
+function greet(name, _question) {
+    console.log('Hello', name + _question);
   }
 
-greet('hello','Bob');
+greet('Bob', ' how are you');
+
 
 let arrayLength = fruit.length;
 for (let i = 0; i < arrayLength; i++){
@@ -28,7 +28,7 @@ for (let i = 0; i < arrayLength; i++){
 }
 
 if (labb) {
-    console.log("bob likes mango");
+    console.log("Bob likes mango");
 } else {
-    console.log("bob doesn't like mango");
+    console.log("Bob doesn't like mango");
 }
